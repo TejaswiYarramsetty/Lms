@@ -1,0 +1,21 @@
+/* Styling for navbar links */
+.navbar-nav .nav-link {
+    color: #fff !important; /* Default text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for navbar links */
+.navbar-nav .nav-link:hover {
+    color: #5b24ff !important; /* New color when hovered */
+    transform: scale(1.1); /* Slight enlargement */
+}
+
+.dropdown-item {
+    color: #333 !important; /* Default text color for dropdown items */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-item:hover {
+    color: #5b24ff !important; /* Hover color for dropdown items */
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
